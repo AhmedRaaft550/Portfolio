@@ -109,7 +109,7 @@ const Contact = () => {
         reverseOrder={false}
       />
 
-      <section>
+      <section id="contact">
         <motion.div
           className={contactForm}
           variants={containerVariants}
