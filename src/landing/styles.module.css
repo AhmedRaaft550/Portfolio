@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.introSection {
+  height: calc(100vh - 56px);
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f8fafc;
+  text-align: center;
+  position: relative;
+  padding: 0 20px;
+}
+
+.introText {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.introText h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: #f1f5f9;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.nameHighlight {
+  color: #38bdf8;
+}
+
+.introText h2 {
+  font-size: 1.5rem;
+  color: #94a3b8;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.exploreButton {
+  background-color: #38bdf8;
+  color: #0f172a;
+  border: none;
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.exploreButton:hover {
+  background-color: #0ea5e9;
+}
+
+.scrollIndicator {
+  position: absolute;
+  bottom: 100px;
+  left: 48%;
+  font-size: 1.5rem;
+  color: #94a3b8;
+  cursor: pointer;
+  user-select: none;
+  background-color: #0f172a;
+  padding: 1rem 1.5rem;
+  border-radius: 999px;
+  border: 1px solid #334155;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+@media (max-width: 600px) {
+  .scrollIndicator {
+    left: 42%;
+  }
+}
+
+.scrollIndicator:hover {
+  background-color: #1e293b;
+  transform: translateX(-50%) scale(1.08);
+}

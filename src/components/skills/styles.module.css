@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.skills {
+  background-color: #1e293b;
+  padding: 100px 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+}
+
+.skills h1 {
+  text-align: center;
+  color: #38bdf8;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+  text-align: center;
+}
+
+h3 {
+  color: #f8fafc;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.languages,
+.frameWorks,
+.tools,
+.others {
+  border: 2px solid #94a3b8;
+  border-radius: 12px;
+  padding: 20px;
+  width: 220px;
+  transition: transform 0.3s ease;
+  background-color: #0f172a;
+  position: relative;
+}
+
+.languages:hover,
+.frameWorks:hover,
+.tools:hover,
+.others:hover {
+  transform: translateY(-5px);
+  border-color: #38bdf8;
+}
+
+.languages ul,
+.frameWorks ul,
+.tools ul,
+.others ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.languages ul li,
+.frameWorks ul li,
+.tools ul li,
+.others ul li {
+  color: #e2e8f0;
+  font-size: 1rem;
+  padding-top: 10px;
+}
+.skills img {
+  width: 24px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.languages::after,
+.frameWorks::after,
+.tools::after,
+.others::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #38bdf8;
+  top: 57px;
+  left: 0;
+}

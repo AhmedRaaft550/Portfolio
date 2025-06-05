@@ -1,0 +1,90 @@
+.
+├── README.md
+├── eslint.config.js
+├── index.html
+├── my-react-router-app
+│   ├── Dockerfile
+│   ├── README.md
+│   ├── app
+│   │   ├── app.css
+│   │   ├── root.tsx
+│   │   ├── routes
+│   │   │   └── home.tsx
+│   │   ├── routes.ts
+│   │   └── welcome
+│   │       ├── logo-dark.svg
+│   │       ├── logo-light.svg
+│   │       └── welcome.tsx
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── public
+│   │   └── favicon.ico
+│   ├── react-router.config.ts
+│   ├── structure.txt
+│   ├── tsconfig.json
+│   └── vite.config.ts
+├── package-lock.json
+├── package.json
+├── public
+├── src
+│   ├── App.jsx
+│   ├── assets
+│   │   └── image
+│   │       ├── 1737288941386-removebg-preview.jpg
+│   │       ├── 1737288941386.jpeg
+│   │       ├── Responsive.svg
+│   │       ├── Responsive_Web_Design_Logo.svg
+│   │       ├── api.png
+│   │       ├── bootstrap.jpeg
+│   │       ├── chatbot.png
+│   │       ├── computer-icons.jpg
+│   │       ├── cruds.png
+│   │       ├── css.png
+│   │       ├── devtools.jpg
+│   │       ├── framer motion.png
+│   │       ├── git.webp
+│   │       ├── github.png
+│   │       ├── home-vibe.png
+│   │       ├── html.png
+│   │       ├── js.jpg
+│   │       ├── nextjs.png
+│   │       ├── profile.png
+│   │       ├── react.svg
+│   │       ├── redux.jpeg
+│   │       ├── reduxtoolkit.png
+│   │       ├── responsive-icon.jpg
+│   │       ├── seo.jpeg
+│   │       ├── todolist.png
+│   │       └── ts.png
+│   ├── components
+│   │   ├── footer
+│   │   │   ├── Footer.jsx
+│   │   │   └── style.module.css
+│   │   ├── navBar
+│   │   │   ├── NavBar.jsx
+│   │   │   └── style.module.css
+│   │   └── skills
+│   │       ├── Skills.jsx
+│   │       ├── skillsData.js
+│   │       └── styles.module.css
+│   ├── global.css
+│   ├── index.css
+│   ├── landing
+│   │   ├── Landing.jsx
+│   │   └── style.module.css
+│   ├── main.jsx
+│   └── pages
+│       ├── about
+│       │   ├── About.jsx
+│       │   └── styles.module.css
+│       ├── contact
+│       │   ├── Contact.jsx
+│       │   └── styles.module.css
+│       └── myProjects
+│           ├── Projects.jsx
+│           ├── projectsData.jsx
+│           └── styles.module.css
+├── structure.txt
+└── vite.config.js
+
+19 directories, 69 files
