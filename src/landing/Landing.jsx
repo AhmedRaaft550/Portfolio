@@ -3,14 +3,8 @@ import { motion } from "motion/react";
 import { Container } from "react-bootstrap";
 import styles from "./styles.module.css";
 
-const {
-  introSection,
-  introText,
-  nameHighlight,
-  exploreButton,
-  scrollIndicator,
-  cursor,
-} = styles;
+const { introSection, introText, nameHighlight, exploreButton, cursor } =
+  styles;
 
 const LandingIntro = () => {
   const scrollToAbout = () => {
@@ -77,8 +71,15 @@ const LandingIntro = () => {
             Explore
           </motion.button>
         </motion.div>
+      </Container>
+    </section>
+  );
+};
 
-        <motion.div
+export default LandingIntro;
+
+/**
+ * <motion.div
           className={scrollIndicator}
           animate={{ y: [0, 10, 0] }}
           transition={{ repeat: Infinity, duration: 1.5 }}
@@ -86,9 +87,4 @@ const LandingIntro = () => {
         >
           ↓
         </motion.div>
-      </Container>
-    </section>
-  );
-};
-
-export default LandingIntro;
+ */
