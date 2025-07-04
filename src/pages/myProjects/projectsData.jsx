@@ -1,16 +1,22 @@
-import homevibe from "../../../src/assets/image/home-vibe.png";
+import Trendiva from "../../../src/assets/image/Trendiva.png";
 import cruds from "../../../src/assets/image/cruds.png";
 import chatbot from "../../../src/assets/image/chatbot.png";
 import todo from "../../../src/assets/image/todolist.png";
 
 export const projectsData = [
   {
-    title: "HomeVibe",
-    image: homevibe,
+    title: "E-Commerce Web Application",
+    image: Trendiva,
     description:
-      "HomeVibe high-quality furniture that transforms your space. Enjoy a smooth shopping experience with easy navigation, login. And add items to your cart, checkout seamlessly with secure payment options.",
-    tech: ["React", "Redux", "React Router", "Framer Motion", "CSS"],
-    demo: "https://home-vibe-git.vercel.app/",
+      "Developed a full-featured, responsive e-commerce web application using Next.js",
+    tech: [
+      "Nextjs",
+      "Lodash.debounce",
+      "Tailwind CSS ",
+      "Zod & React Hook Form ",
+      "Context API",
+    ],
+    demo: "https://trendiva.vercel.app/",
   },
 
   {
