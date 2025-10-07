@@ -16,6 +16,7 @@ import api from "../../assets/image/api.png";
 import responsive from "../../assets/image/responsive-icon.jpg";
 import seo from "../../assets/image/seo.jpeg";
 import accessibility from "../../assets/image/computer-icons.jpg";
+import nextauth from "../../assets/image/nextauth.png";
 
 export const skillsData = {
   languages: [
@@ -36,6 +37,7 @@ export const skillsData = {
     { name: "Git", icon: git },
     { name: "GitHub", icon: github },
     { name: "Chrome DevTools", icon: devTools },
+    { name: "NextAuth", icon: nextauth },
   ],
   others: [
     { name: "APIs", icon: api },
