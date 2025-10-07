@@ -17,9 +17,11 @@
 
 .projects .card {
   background-color: #334155;
+  height: 600px;
   color: #ffffff;
   border: none;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
 }
 
 .projects .card:hover {
@@ -70,6 +72,8 @@
   color: #b7b2b2;
   border: none;
   transition: background-color 0.3s ease;
+  position: absolute;
+  bottom: 20px;
 }
 
 .projects .btn:hover {

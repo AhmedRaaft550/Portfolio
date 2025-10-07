@@ -11,7 +11,7 @@ const { projects, card, cardTitle, cardText, cardImg, techList, btn } = styles;
 // Animation variant
 const cardVariants = {
   hidden: { opacity: 0, y: 50 },
-  visible: (i) => ({
+  visible: () => ({
     opacity: 1,
     y: 0,
     transition: {

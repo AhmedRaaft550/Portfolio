@@ -1,14 +1,14 @@
 import Trendiva from "../../../src/assets/image/Trendiva.png";
 import cruds from "../../../src/assets/image/cruds.png";
-import chatbot from "../../../src/assets/image/chatbot.png";
-import todo from "../../../src/assets/image/todolist.png";
+import airbnb from "../../../src/assets/image/airbnb.png";
+import Everlane from "../../../src/assets/image/Everlane.png";
 
 export const projectsData = [
   {
-    title: "E-Commerce Web Application",
+    title: "Shopping Platform",
     image: Trendiva,
     description:
-      "Developed a full-featured, responsive e-commerce web application using Next.js",
+      "Responsive e-commerce app built with Next.js featuring auth, cart, and favorites. Used React Hook Form + Zod for validation, Context API for state, lodash.debounce for optimized search, and Tailwind CSS for styling with SEO best practices.",
     tech: [
       "Nextjs",
       "Lodash.debounce",
@@ -20,29 +20,35 @@ export const projectsData = [
   },
 
   {
+    title: "Airbnb",
+    image: airbnb,
+    description:
+      "A simplified Airbnb clone built with [Next.js/React ], allowing users to search for available stays by country or city. Includes basic features such as cookie-based session handling and a responsive interface. ",
+    tech: [
+      "Nextjs",
+      "Tailwind",
+      "Typescript",
+      "react-cookie-consent",
+      "react-date-range",
+    ],
+    demo: "https://airbnb-d4vg.vercel.app/",
+  },
+
+  {
+    title: "E-Commerce Platform",
+    image: Everlane,
+    description:
+      "A high-performance, fully responsive e-commerce web application built with Next.js (App Router), TypeScript, Redux, and Tailwind CSS. Features product listing, detailed product pages, cart management, checkout flow, Google OAuth authentication, and optimized image handling.",
+    tech: ["Nextjs", "Tailwind", "Redux toolkit", "Redux-Persist", "NextAuth"],
+    demo: "https://everlane-sigma.vercel.app/",
+  },
+
+  {
     title: "CRUDS",
     image: cruds,
     description:
-      "CRUDS is a simple app to Create, Read, Update, and Delete records using vanilla JavaScript and Local Storage for persistent data. It features a clean interface with real-time search, filtering, and sorting — ideal for learning web development",
+      "CRUDS is a simple web app built with vanilla JavaScript that lets users Create, Read, Update, and Delete records using Local Storage for data persistence. It features a clean interface with real-time search, filtering, and sorting, making it great for learning core web development concepts.",
     tech: ["Vanilla js", "CSS"],
     demo: "https://cruds-roan.vercel.app/",
-  },
-
-  {
-    title: "Chat Bot",
-    image: chatbot,
-    description:
-      "This project is a chatbot built to interact with users through text, It can answer queries, and integrate with external services like APIs. The chatbot is designed for ease of use and scalability..",
-    tech: ["Vanilla js", "CSS"],
-    demo: "https://chat-gpt-three-ashy.vercel.app/",
-  },
-
-  {
-    title: "TODO List",
-    image: todo,
-    description:
-      "This project is a simple To-Do List application that allows users to create, update, and delete tasks. It provides an intuitive interface to organize daily activities, with features like task prioritization and status tracking",
-    tech: ["Vanilla js", "CSS"],
-    demo: "https://today-list.vercel.app/",
   },
 ];
